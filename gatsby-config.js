@@ -5,9 +5,9 @@ module.exports = {
     title: 'Kaung Khant Kyaw',
     description:
       'Kaung Khant Kyaw is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://lawliet-3.github.io/portfolio_v1', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@whizz21k',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
