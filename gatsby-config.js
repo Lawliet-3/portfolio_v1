@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'Kaung Khant Kyaw',
     description:
-      'Kaung Khant Kyaw is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Kaung Khant Kyaw is an aspiring ML Engineer & Full-stack Developer who loves building smart systems that actually work.',
     siteUrl: 'https://lawliet-3.github.io/portfolio_v1', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@whizz21k',
