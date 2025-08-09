@@ -10,8 +10,9 @@ const getInitialState = () =>
   // For our initial server render, we won't know if the user
   // prefers reduced motion, but it doesn't matter. This value
   // will be overwritten on the client, before any animations
-  // occur.
-  isRenderingOnServer ? true : !window.matchMedia(QUERY).matches;
+  // occur. Default to false (animations enabled) to ensure
+  // animations work on initial load.
+  isRenderingOnServer ? false : !window.matchMedia(QUERY).matches;
 function usePrefersReducedMotion() {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(getInitialState);
   useEffect(() => {
