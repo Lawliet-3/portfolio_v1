@@ -67,7 +67,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm an aspiring ML Engineer & Python Developer who loves building smart systems that
+        I'm an aspiring ML Engineer & Full-Stack Developer who loves building smart systems that
         actually work. Right now, I'm diving into MLOps — making sure ML projects don't break the
         moment they go live.
       </p>
